@@ -1,3 +1,13 @@
+/* IQS624 Hall Sensor, for Butterfly
+ 
+ * 06/29/2017 Copyright Tlera Corporation
+ *  
+ *  Created by Kris Winer
+ *  
+ *  Library may be used freely and without limit with attribution.
+ *  
+ */
+
 #ifndef IQS624_h
 #define IQS624_h
 
