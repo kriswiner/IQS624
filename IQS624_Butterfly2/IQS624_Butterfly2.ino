@@ -1,7 +1,13 @@
 /* IQS624 Hall Sensor, for Butterfly
  
-   This example code is in the public domain.
-*/
+ * 06/29/2017 Copyright Tlera Corporation
+ *  
+ *  Created by Kris Winer
+ *  
+ *  Library may be used freely and without limit with attribution.
+ *  
+ */
+
 #include <Arduino.h>
 #include <Wire.h>
 #include "IQS624.h"
@@ -10,7 +16,7 @@
 #define myLed 13  // green led
 #define intPin 30 // data ready pin
 
-uint8_t degrees[2] = {0, 0}, hallStatus, eventStatus, powerModeStatus, deltaDegrees, temp;
+uint8_t deltaDegrees;
 uint16_t wheelDegrees = 0;
 uint32_t thisTime = 0, lastTime = 0;
 
